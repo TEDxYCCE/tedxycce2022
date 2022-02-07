@@ -1,9 +1,13 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center p-6 pt-8 text-white bg-black ">
-      <ul id="socials" className="inline-flex gap-4 p-2 text-red-800">
+    <footer className="container mx-auto flex flex-col items-center p-6 pt-8 text-white bg-black ">
+      <ul id="socials" className="inline-flex gap-4 p-2 text-red-700">
         <li>
-          <a href="https://www.facebook.com/tedxycceofficial" rel="noopener noreferrer" target="_blank" >
+          <a
+            href="https://www.facebook.com/tedxycceofficial"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <svg
               viewBox="0 0 24 24"
               width="24"
@@ -20,7 +24,11 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/tedxycce/" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.instagram.com/tedxycce/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <svg
               viewBox="0 0 24 24"
               width="24"
@@ -40,7 +48,11 @@ const Footer = () => {
         </li>
 
         <li>
-          <a href="https://twitter.com/tedxycce" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://twitter.com/tedxycce"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <svg
               viewBox="0 0 24 24"
               width="24"
@@ -57,7 +69,11 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/company/tedxycce/" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.linkedin.com/company/tedxycce/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <svg
               viewBox="0 0 24 24"
               width="24"
