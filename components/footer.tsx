@@ -76,7 +76,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <p className="mt-2 text-xl">Copyright © 2021 TEDxYCCE</p>
+      <p className="mt-2 text-xl">Copyright © 2022 TEDxYCCE</p>
       <p className="my-2 text-gray-400">
         This independent TEDx event is operated under license from TED.
       </p>
