@@ -13,13 +13,13 @@ const Nominate = () => {
         </div>
       </h2>
 
-      <div className="flex flex-col mx-auto md:flex-row md:px-24">
+      <div className="flex flex-col mx-auto md:flex-row md:px-24 lg:space-x-24">
         <div className="p-4 mx-auto text-center ">
           <h2 className="my-4 text-2xl font-bold text-white">
             Call for Speakers
           </h2>
-          <p className="max-w-sm my-6 text-center text-gray-400">
-            Nominate your desired speaker and add to the greatness of the event!
+          <p className="max-w-[15rem] my-6 text-center text-gray-400 md:h-20">
+            Nominate your desired speaker and make event joyous!
           </p>
           <a className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full " href="https://forms.gle/1Tbm9Sh8LcZPjEo68" rel="noopener noreferrer" target="_blank">
             Nominate Speaker
@@ -38,13 +38,14 @@ const Nominate = () => {
             </svg>
           </a>
         </div>
+
         <div className="p-4 mx-auto text-center">
           <h2 className="my-4 text-2xl font-bold text-white">
             Call for Performers
           </h2>
-          <p className="max-w-sm my-6 text-center text-gray-400">
+          <div className="max-w-[15rem] my-6 text-center text-gray-400 md:h-20">
             Nominate your beloved performer and enhance experience for all!
-          </p>
+          </div>
           <a
             className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full "
             rel="noopener noreferrer"
