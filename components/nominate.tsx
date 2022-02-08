@@ -1,11 +1,11 @@
 const Nominate = () => {
   return (
-    <div className="container mx-auto lg:flex lg:flex-col">
+    <section className="container mx-auto lg:flex lg:flex-col pt-36">
       <h2 className="w-full mt-8 mb-6 text-3xl font-bold text-center text-white">
         <span className="px-4 border-l-4 border-r-4 border-red-600">
           Nominations
         </span>
-        <div className="px-4 mt-2 text-xl font-normal text-gray-500 text-md">
+        <div className="px-4 mt-4 text-xl font-normal text-gray-500 text-md">
           Let us know your desired Speaker/Performer
         </div>
         <div className="mt-2 text-base font-normal text-gray-400">
@@ -74,7 +74,7 @@ const Nominate = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

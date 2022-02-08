@@ -18,20 +18,20 @@ const Header = () => {
         <nav className="mt-2 lg:mt-0">
           <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
             <li>
-              <Link href="./about">ABOUT</Link>
+              <Link href="/about">ABOUT</Link>
             </li>
             <li>
-              <Link href="./speakers">SPEAKERS</Link>
+              <Link href="/speakers">SPEAKERS</Link>
             </li>
             <li>
               {/* TODO: Link to nomination section on home page */}
               <Link href="#nominations">NOMINATIONS</Link>
             </li>
             <li>
-              <Link href="./sponsors">SPONSORS</Link>
+              <Link href="/sponsors">SPONSORS</Link>
             </li>
             <li>
-              <Link href="./contact">CONTACT US</Link>
+              <Link href="/contact">CONTACT US</Link>
             </li>
           </ul>
         </nav>
