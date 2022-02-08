@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="my-12 ">
+      <main className="my-12">
         <div className="container flex flex-col gap-16 mx-auto mb-16 text-white lg:flex-row ">
           <div className="w-full px-10 lg:w-1/2">
             <h2 className="text-3xl font-semibold">What is TEDx?</h2>
@@ -78,8 +78,8 @@ const Home: NextPage = () => {
                 TED is a nonprofit organization devoted to Ideas Worth
                 Spreading. Started as a four-day conference in California 30
                 years ago, TED has grown to support its mission with multiple
-                initiatives. The two annual TED Conferences invite the world's
-                leading thinkers and doers to speak for{" "}
+                initiatives. The two annual TED Conferences invite the
+                world&apos;s leading thinkers and doers to speak for{" "}
                 <span className="font-semibold">18 minutes or less.</span>
               </p>
 
@@ -89,8 +89,8 @@ const Home: NextPage = () => {
                 Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck,
                 Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman. The annual
                 TED Conference takes place each spring in Vancouver, British
-                Columbia. TED's media initiatives include TED.com, where new TED
-                Talks are posted daily; TED Translators, which provides
+                Columbia. TED&apos;s media initiatives include TED.com, where
+                new TED Talks are posted daily; TED Translators, which provides
                 subtitles and interactive transcripts as well as translations
                 from volunteers worldwide; the educational initiative TED-Ed.
               </p>
@@ -101,13 +101,26 @@ const Home: NextPage = () => {
                 individuals or groups in hosting local, self- organized
                 TED-style events around the world, and the TED Fellows program,
                 helping world-changing innovators from around the globe to
-                amplify the impact of their remarkable projects and activities. <br />
-                Follow TED on Twitter at <a className="text-red-600 " href="https://twitter.com/TEDTalks">https://twitter.com/TEDTalks</a>, <br />
-                or on Facebook at <a className="text-red-600 " href="https://www.facebook.com/TED">https://www.facebook.com/TED</a>. 
+                amplify the impact of their remarkable projects and activities.{" "}
+                <br />
+                Follow TED on Twitter at{" "}
+                <a
+                  className="text-red-600 "
+                  href="https://twitter.com/TEDTalks"
+                >
+                  https://twitter.com/TEDTalks
+                </a>
+                , <br />
+                or on Facebook at{" "}
+                <a
+                  className="text-red-600 "
+                  href="https://www.facebook.com/TED"
+                >
+                  https://www.facebook.com/TED
+                </a>
+                .
               </p>
-
             </div>
-           
           </div>
         </div>
         {/* <BlankSpace /> */}

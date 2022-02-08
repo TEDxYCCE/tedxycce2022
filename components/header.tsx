@@ -25,7 +25,7 @@ const Header = () => {
             </li>
             <li>
               {/* TODO: Link to nomination section on home page */}
-              <Link href="#nominations">NOMINATIONS</Link>
+              <Link href="/#nominations">NOMINATIONS</Link>
             </li>
             <li>
               <Link href="/sponsors">SPONSORS</Link>

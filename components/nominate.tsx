@@ -1,6 +1,9 @@
 const Nominate = () => {
   return (
-    <section className="container mx-auto lg:flex lg:flex-col pt-36">
+    <section
+      id="nominations"
+      className="container mx-auto lg:flex lg:flex-col pt-36"
+    >
       <h2 className="w-full mt-8 mb-6 text-3xl font-bold text-center text-white">
         <span className="px-4 border-l-4 border-r-4 border-red-600">
           Nominations
