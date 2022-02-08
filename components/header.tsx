@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="bg-black text-red-600 container mx-auto flex flex-col lg:flex-row items-center justify-between p-4">
+    <header className="bg-black sticky top-0 text-red-600 container mx-auto flex flex-col lg:flex-row items-center justify-between p-4">
       <div className="w-56">
         <Image
           src={logo}

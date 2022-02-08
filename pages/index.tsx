@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import Hero from "../components/hero";
 import Nominate from "../components/nominate";
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex-1">
         {/* <h1 className="text-2xl text-white">Welcome</h1> */}
+        <Hero />
         <Nominate />
       </main>
       <Footer />
