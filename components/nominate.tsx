@@ -21,17 +21,22 @@ const Nominate = () => {
           <p className="max-w-[15rem] my-6 text-center text-gray-400 md:h-20">
             Nominate your desired speaker and make event joyous!
           </p>
-          <a className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full " href="https://forms.gle/1Tbm9Sh8LcZPjEo68" rel="noopener noreferrer" target="_blank">
+          <a
+            className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full "
+            href="https://forms.gle/1Tbm9Sh8LcZPjEo68"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Nominate Speaker
             <svg
               viewBox="0 0 24 24"
               width="24"
               height="24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="inline"
             >
               <polyline points="9 18 15 12 9 6"></polyline>
@@ -58,10 +63,10 @@ const Nominate = () => {
               width="24"
               height="24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="inline"
             >
               <polyline points="9 18 15 12 9 6"></polyline>
