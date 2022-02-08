@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="container mx-auto flex flex-col items-center p-6 pt-8 text-white bg-black ">
+    <footer className="container mx-auto flex flex-col items-center p-6 pt-8 text-white bg-black">
       <ul id="socials" className="inline-flex gap-4 p-2 text-red-700">
         <li>
           <a
@@ -93,7 +93,7 @@ const Footer = () => {
         </li>
       </ul>
       <p className="mt-2 text-xl">Copyright © 2022 TEDxYCCE</p>
-      <p className="my-2 text-gray-400">
+      <p className="my-2 text-gray-400 text-justify">
         This independent TEDx event is operated under license from TED.
       </p>
     </footer>
