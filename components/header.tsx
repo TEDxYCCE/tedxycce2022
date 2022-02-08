@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="bg-black sticky top-0 text-red-600 container mx-auto flex flex-col lg:flex-row items-center justify-between p-4">
+    <header className="container sticky top-0 flex flex-col items-center justify-between p-4 mx-auto text-red-600 bg-black lg:flex-row">
       <div className="w-56">
         <Image
           src={logo}
@@ -15,7 +15,7 @@ const Header = () => {
         />
       </div>
       <nav className="mt-2 lg:mt-0">
-        <ul className="flex flex-wrap justify-center gap-2 lg:gap-8 font-semibold">
+        <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
           <li>
             <a href="#about">ABOUT</a>
           </li>
@@ -26,7 +26,7 @@ const Header = () => {
             <a href="#nominations">NOMINATIONS</a>
           </li>
           <li>
-            <Link href="#sponsor">SPONSOR</Link>
+            <Link href="#sponsor">SPONSORS</Link>
           </li>
           <li>
             <a href="#contact">CONTACT US</a>
