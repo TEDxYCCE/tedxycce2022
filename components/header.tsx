@@ -6,15 +6,17 @@ const Header = () => {
   return (
     <header className="bg-black sticky top-0 z-10 text-red-600">
       <div className="container mx-auto w-full flex flex-col lg:flex-row items-center justify-between p-4">
-        <div className="w-56">
-          <Image
-            src={logo}
-            layout="intrinsic"
-            height={205}
-            width={782}
-            alt="TEDx_Logo"
-          />
-        </div>
+        <Link href="/">
+          <a className="w-56">
+            <Image
+              src={logo}
+              layout="intrinsic"
+              height={205}
+              width={782}
+              alt="TEDx_Logo"
+            />
+          </a>
+        </Link>
         <nav className="mt-2 lg:mt-0">
           <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
             <li>
