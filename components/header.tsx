@@ -16,21 +16,22 @@ const Header = () => {
           />
         </div>
         <nav className="mt-2 lg:mt-0">
-          <ul className="flex flex-wrap justify-center gap-2 lg:gap-8 font-semibold">
+          <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
             <li>
-              <a href="#about">ABOUT</a>
+              <Link href="./about">ABOUT</Link>
             </li>
             <li>
-              <Link href="#speakers">SPEAKERS</Link>
+              <Link href="./speakers">SPEAKERS</Link>
             </li>
             <li>
-              <a href="#nominations">NOMINATIONS</a>
+              {/* TODO: Link to nomination section on home page */}
+              <Link href="#nominations">NOMINATIONS</Link>
             </li>
             <li>
-              <Link href="#sponsor">SPONSOR</Link>
+              <Link href="./sponsors">SPONSORS</Link>
             </li>
             <li>
-              <a href="#contact">CONTACT US</a>
+              <Link href="./contact">CONTACT US</Link>
             </li>
           </ul>
         </nav>
