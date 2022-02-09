@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             <p className="leading-relaxed tracking-wide text-justify text-gray-400 text-md">
               TEDxYCCE is an independently organized TED event under an
               authorized license from TED at Yeshwantrao Chavan College of
-              Engineering, Nagpur. It is being organized this year for the first
+              Engineering, Nagpur. It is being organized this year for the second
               time in YCCE with the aim to make the youth involved in the
               spectrum of IDEAS WORTH SPREADING. The conference will feature
               interdisciplinary presenters including those from the local
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               discussion.
             </p>
 
-            <a href="https://www.ted.com/about/programs-initiatives/tedx-program">
+            <a href="../">
               <div className="w-auto p-4 mx-10 mt-12 text-red-400 border border-red-500 rounded-xl border-1 hover:bg-red-800 px-auto focus:ring-1">
                 <p className="text-2xl font-normal tracking-wider text-center">
                   Visit TEDxYCCE page
