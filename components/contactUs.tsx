@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
-    <div className="container flex flex-col lg:flex-row items-center justify-center gap-12 mx-auto text-white px-8 lg:px-2">
-      <div className="w-full sm:w-2/3 lg:w-1/3 px-3">
+    <div className="container flex flex-col items-center justify-center gap-12 px-8 mx-auto text-white lg:flex-row lg:px-2">
+      <div className="w-full px-3 sm:w-2/3 lg:w-1/3">
         <h3 className="mb-6 text-3xl font-semibold">
           {" "}
           Feel free to ask anything
@@ -43,7 +43,7 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
-      <div className="w-full sm:w-2/3 lg:w-1/3 px-3 flex flex-col text-red-700">
+      <div className="flex flex-col w-full px-3 text-red-700 sm:w-2/3 lg:w-1/3">
         <h2 className="text-3xl font-semibold text-white pb-9">
           Where can you find us
         </h2>
@@ -67,7 +67,7 @@ const ContactUs = () => {
             organizer@tedxycce.in
           </a>
         </div>
-        <div className="flex gap-2 py-2">
+        <div className="flex flex-row gap-2 py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7 "
@@ -86,19 +86,36 @@ const ContactUs = () => {
             href="tel:+91 9999999999"
             target="_blank"
             rel="noreferrer"
-            className="text-white"
+            className="block text-white"
           >
             +91 86685 50779
           </a>
+                  </div>
+                  <div className="flex gap-2 py-2">
+                  <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-7 "
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            stroke="none"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+            />
+          </svg>
           <a
             target="_blank"
             rel="noreferrer"
-            className="text-white"
+            className="block text-white"
             href="https://api.whatsapp.com/send?phone=918668550779&text=Hi%20TEDxYCCE,%20Let%27s%20have%20a%20chat?"
           >
-            (Same for Whatsapp)
+            +91 86685 50779
           </a>
-        </div>
+
+                  </div>
         <div className="flex gap-2 py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +144,7 @@ const ContactUs = () => {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.4356442935323!2d78.9785723!3d21.0951911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4952117eaac51%3A0x6d8277793eb63d6a!2sYeshwantrao%20Chavan%20College%20of%20Engineering%20(YCCE)%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1644498444516!5m2!1sen!2sin"
           width="100%"
           height="250"
-          //className="h-80 w-96 py-2 border-0"
+          //className="py-2 border-0 h-80 w-96"
           allowFullScreen={false}
           loading="lazy"
         ></iframe>
