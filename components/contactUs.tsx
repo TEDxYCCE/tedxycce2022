@@ -42,7 +42,7 @@ const ContactUs = () => {
             />
             <button
               type="submit"
-              className="px-4 py-4 mb-4 text-xl text-red-500 border-[1px] border-red-500 rounded-xl"
+              className="px-4 py-4 mb-4 text-xl ring-2 ring-red-800 text-red-500 hover:bg-red-800 hover:text-gray-100 transition-colors rounded-xl"
             >
               Send Message
             </button>
