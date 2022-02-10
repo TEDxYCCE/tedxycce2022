@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Button from "./button";
+
 const BlankSpace = () => {
   return (
     <section className="container px-4 lg:px-8 py-32 lg:py-56 mx-auto text-center text-white">
@@ -7,12 +10,7 @@ const BlankSpace = () => {
         Check back later to see more!
       </p>
 
-      <a
-        className="px-6 py-3 mb-8 font-semibold text-white bg-red-600 rounded-full "
-        href="../"
-      >
-        Go Home
-      </a>
+      <Button title="Go Home" type="internal" href={"/"} />
     </section>
   );
 };

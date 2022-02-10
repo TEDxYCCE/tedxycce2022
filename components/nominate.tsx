@@ -1,3 +1,5 @@
+import Button from "./button";
+
 const Nominate = () => {
   return (
     <section
@@ -24,27 +26,11 @@ const Nominate = () => {
           <p className="max-w-[15rem] my-6 text-center text-gray-400 md:h-20">
             Nominate your desired speaker and make event joyous!
           </p>
-          <a
-            className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full "
+          <Button
+            title="Nominate Speaker"
+            type="external"
             href="https://forms.gle/1Tbm9Sh8LcZPjEo68"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Nominate Speaker
-            <svg
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              stroke="currentColor"
-              strokeWidth="2"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="inline"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
+          />
         </div>
 
         <div className="p-4 mx-auto text-center">
@@ -54,27 +40,11 @@ const Nominate = () => {
           <div className="max-w-[15rem] my-6 text-center text-gray-400 md:h-20">
             Nominate your beloved performer and enhance experience for all!
           </div>
-          <a
-            className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full "
-            rel="noopener noreferrer"
+          <Button
+            title="Nominate Performer"
+            type="external"
             href="https://forms.gle/onJMSW9omnXc61ia7"
-            target="_blank"
-          >
-            Nominate Performer
-            <svg
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              stroke="currentColor"
-              strokeWidth="2"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="inline"
-            >
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </a>
+          />
         </div>
       </div>
     </section>
