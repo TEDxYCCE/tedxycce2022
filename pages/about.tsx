@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Button from "../components/button";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -30,13 +31,16 @@ const Home: NextPage = () => {
               self-organized.
             </p>
 
-            <a href="https://www.ted.com/about/programs-initiatives/tedx-program">
-              <div className="w-auto p-4 mx-10 mt-12 text-red-400 border border-red-500 rounded-xl border-1 hover:bg-red-800 px-auto focus:ring-1">
-                <p className="text-2xl font-normal tracking-wider text-center">
-                  Visit the TEDx Program
-                </p>
-              </div>
-            </a>
+            <div className="mt-12 px-4">
+              <Button
+                href="https://www.ted.com/about/programs-initiatives/tedx-program"
+                title="Visit the TEDx Program"
+                type="external"
+                variant="outlined"
+                className="w-full text-xl py-5"
+                noRightArrow
+              />
+            </div>
           </div>
           <div className="w-full px-10 lg:w-1/2 ">
             <h2 className="text-3xl font-semibold">What is TEDxYCCE?</h2>
@@ -55,13 +59,15 @@ const Home: NextPage = () => {
               discussion.
             </p>
 
-            <a href="../">
-              <div className="w-auto p-4 mx-10 mt-12 text-red-400 border border-red-500 rounded-xl border-1 hover:bg-red-800 px-auto focus:ring-1">
-                <p className="text-2xl font-normal tracking-wider text-center">
-                  Visit TEDxYCCE page
-                </p>
-              </div>
-            </a>
+            <div className="mt-12 px-4">
+              <Button
+                href="../"
+                title="Visit TEDxYCCE Page"
+                variant="outlined"
+                className="w-full text-xl py-5"
+                noRightArrow
+              />
+            </div>
           </div>
         </div>
 
@@ -70,7 +76,9 @@ const Home: NextPage = () => {
             <div className="text-center ">
               <h3 className="text-xl">Wondering what TED is about?</h3>
 
-              <h2 className="pb-6 mb-8 text-3xl font-bold">Here is About TED</h2>
+              <h2 className="pb-6 mb-8 text-3xl font-bold">
+                Here is About TED
+              </h2>
               <p className="container max-w-2xl mx-auto mb-4 text-lg font-light text-justify text-gray-600">
                 TED is a nonprofit organization devoted to Ideas Worth
                 Spreading. Started as a four-day conference in California 30

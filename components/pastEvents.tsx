@@ -8,7 +8,7 @@ import SectionHeading from "./sectionHeading";
 const PastEvents = () => {
   return (
     <section className="container px-6 mx-auto lg:flex lg:flex-col py-36 lg:px-32">
-     <SectionHeading title="Past Events"/>
+      <SectionHeading title="Past Events" />
 
       {/* Stairs layout */}
       <div className="flex flex-row gap-1 my-6 lg:gap-4">
@@ -37,6 +37,7 @@ const PastEvents = () => {
         <Button
           title="TEDxYCCE 2021"
           type="external"
+          variant="filled"
           href="https://tedxycce.github.io/tedxycce_21/"
           className="my-4 lg:mt-8"
         />

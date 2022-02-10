@@ -10,7 +10,7 @@ const BlankSpace = () => {
         Check back later to see more!
       </p>
 
-      <Button title="Go Home" type="internal" href={"/"} />
+      <Button title="Go Home" variant="outlined" href={"/"} noRightArrow />
     </section>
   );
 };

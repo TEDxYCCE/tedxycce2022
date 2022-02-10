@@ -29,6 +29,7 @@ const Nominate = () => {
           <Button
             title="Nominate Speaker"
             type="external"
+            variant="filled"
             href="https://forms.gle/1Tbm9Sh8LcZPjEo68"
           />
         </div>
@@ -43,6 +44,7 @@ const Nominate = () => {
           <Button
             title="Nominate Performer"
             type="external"
+            variant="filled"
             href="https://forms.gle/onJMSW9omnXc61ia7"
           />
         </div>

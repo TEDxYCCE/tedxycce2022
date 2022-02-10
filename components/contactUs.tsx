@@ -1,10 +1,10 @@
+import Button from "./button";
 import SectionHeading from "./sectionHeading";
 
 const ContactUs = () => {
   return (
     <section id="contact">
-      
-        <SectionHeading title="Contact us"/>
+      <SectionHeading title="Contact us" />
       <div className="container flex flex-col items-center justify-center gap-12 px-8 mx-auto text-white lg:items-start lg:flex-row lg:px-2">
         <div className="w-full px-3 sm:w-2/3 lg:w-1/3">
           <h3 className="mb-6 text-3xl font-semibold">
@@ -13,7 +13,7 @@ const ContactUs = () => {
           </h3>
           <form
             action="https://formsubmit.io/send/db144807-f3f0-4977-aa30-28b1413904fc"
-            className="flex flex-col w-full mt-4 "
+            className="flex flex-col w-full mt-4"
           >
             <input type="hidden" name="_template" value="table" />
             {/* <input type="hidden" name="_next" value="http://www.tedxycce.in/thanks"/> */}
