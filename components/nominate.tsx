@@ -27,11 +27,12 @@ const Nominate = () => {
             Nominate your desired speaker and make event joyous!
           </p>
           <Button
-            title="Nominate Speaker"
             type="external"
             variant="filled"
             href="https://forms.gle/1Tbm9Sh8LcZPjEo68"
-          />
+          >
+            Nominate Speaker
+          </Button>
         </div>
 
         <div className="p-4 mx-auto text-center">
@@ -42,11 +43,12 @@ const Nominate = () => {
             Nominate your beloved performer and enhance experience for all!
           </div>
           <Button
-            title="Nominate Performer"
             type="external"
             variant="filled"
             href="https://forms.gle/onJMSW9omnXc61ia7"
-          />
+          >
+            Nominate Performer
+          </Button>
         </div>
       </div>
     </section>

@@ -34,12 +34,13 @@ const Home: NextPage = () => {
             <div className="mt-12 px-4">
               <Button
                 href="https://www.ted.com/about/programs-initiatives/tedx-program"
-                title="Visit the TEDx Program"
                 type="external"
                 variant="outlined"
                 className="w-full text-xl py-5"
                 noRightArrow
-              />
+              >
+                Visit the TEDx Program
+              </Button>
             </div>
           </div>
           <div className="w-full px-10 lg:w-1/2 ">
@@ -62,11 +63,12 @@ const Home: NextPage = () => {
             <div className="mt-12 px-4">
               <Button
                 href="../"
-                title="Visit TEDxYCCE Page"
                 variant="outlined"
                 className="w-full text-xl py-5"
                 noRightArrow
-              />
+              >
+                Visit TEDxYCCE Page
+              </Button>
             </div>
           </div>
         </div>

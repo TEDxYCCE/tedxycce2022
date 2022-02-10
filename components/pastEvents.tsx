@@ -35,12 +35,13 @@ const PastEvents = () => {
       {/* Button to TEDxYCCE 2021 Website */}
       <div className="text-center">
         <Button
-          title="TEDxYCCE 2021"
           type="external"
           variant="filled"
           href="https://tedxycce.github.io/tedxycce_21/"
           className="my-4 lg:mt-8"
-        />
+        >
+          TEDxYCCE 2021
+        </Button>
       </div>
     </section>
   );

@@ -1,9 +1,9 @@
 import Link from "next/link";
-import React from "react";
+import React, { Children } from "react";
 
 interface IButtonRequiredProps {
-  title: string;
   href: string;
+  children: string | JSX.Element;
 }
 interface IButtonOptionalProps {
   type?: "internal" | "external";
@@ -23,7 +23,10 @@ const defaultProps: IButtonOptionalProps = {
 };
 
 const Button = React.forwardRef<HTMLAnchorElement, IButtonProps>(
-  ({ title, type, variant, className, noRightArrow, onClick, href }, ref) => {
+  (
+    { children, type, variant, className, noRightArrow, onClick, href },
+    ref
+  ) => {
     const aClasses =
       "rounded-xl group font-semibold inline-flex justify-center px-6 py-3 transition-colors focus:ring-2 focus:ring-red-800";
     const aTextClasses = "text-red-500 hover:text-red-600/80";
@@ -50,7 +53,7 @@ const Button = React.forwardRef<HTMLAnchorElement, IButtonProps>(
             ? { rel: "noopener noreferrer", target: "_blank" }
             : {})}
         >
-          {title}
+          {children}
 
           {/* Right arrow (only when variant is other than text or explicitly defined) */}
           {!noRightArrow && variant !== "text" ? (
