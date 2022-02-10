@@ -1,11 +1,10 @@
+import SectionHeading from "./sectionHeading";
+
 const ContactUs = () => {
   return (
     <section id="contact">
-      <h2 className="w-full mt-8 mb-32 text-3xl font-bold text-center text-gray-50">
-        <span className="px-4 border-l-4 border-r-4 border-red-600">
-          Contact us
-        </span>
-      </h2>
+      
+        <SectionHeading title="Contact us"/>
       <div className="container flex flex-col items-center justify-center gap-12 px-8 mx-auto text-white lg:items-start lg:flex-row lg:px-2">
         <div className="w-full px-3 sm:w-2/3 lg:w-1/3">
           <h3 className="mb-6 text-3xl font-semibold">
@@ -68,7 +67,7 @@ const ContactUs = () => {
             </svg>
             organizer@tedxycce.in
           </a>
-          <a
+          {/* <a
             href="tel:+91 9999999999"
             target="_blank"
             rel="noreferrer"
@@ -90,7 +89,7 @@ const ContactUs = () => {
               />
             </svg>
             +91 86685 50779
-          </a>
+          </a> */}
           <a
             target="_blank"
             rel="noreferrer"

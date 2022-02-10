@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import BlankSpace from "../components/blankspace";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -13,8 +12,8 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <main className="my-12">
-        <div className="container flex flex-col gap-16 mx-auto mb-16 text-white lg:flex-row ">
-          <div className="w-full px-10 lg:w-1/2">
+        <div className="container flex flex-col justify-center gap-16 mx-auto mb-16 text-white py-28 lg:flex-row ">
+          <div className="w-full px-10 h-4/6 lg:w-1/2">
             <h2 className="text-3xl font-semibold">What is TEDx?</h2>
             <div className="my-5 text-xl tracking-wider">
               Ideas Worth Spreading
@@ -67,11 +66,11 @@ const Home: NextPage = () => {
         </div>
 
         <div className="my-4 bg-white ">
-          <div className="container px-10 pt-10 mx-auto text-black">
+          <div className="container px-10 mx-auto text-black py-28">
             <div className="text-center ">
               <h3 className="text-xl">Wondering what TED is about?</h3>
 
-              <h2 className="pb-6 text-3xl font-bold">Here is About TED</h2>
+              <h2 className="pb-6 mb-8 text-3xl font-bold">Here is About TED</h2>
               <p className="container max-w-2xl mx-auto mb-4 text-lg font-light text-justify text-gray-600">
                 TED is a nonprofit organization devoted to Ideas Worth
                 Spreading. Started as a four-day conference in California 30
@@ -101,6 +100,7 @@ const Home: NextPage = () => {
                 helping world-changing innovators from around the globe to
                 amplify the impact of their remarkable projects and activities.{" "}
                 <br />
+                <br />
                 Follow TED on Twitter at{" "}
                 <a
                   className="text-red-600 "
@@ -121,7 +121,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        {/* <BlankSpace /> */}
       </main>
       <Footer />
     </div>
