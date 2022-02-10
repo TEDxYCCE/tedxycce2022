@@ -2,6 +2,7 @@ import Image from "next/image";
 import Img1 from "../assets/pastEvents/1.png";
 import Img2 from "../assets/pastEvents/2.png";
 import Img3 from "../assets/pastEvents/3.png";
+import Button from "./button";
 
 const PastEvents = () => {
   return (
@@ -35,28 +36,12 @@ const PastEvents = () => {
       </div>
 
       {/* Button to TEDxYCCE 2021 Website */}
-      <div className="mt-4 lg:mt-8 text-center">
-        <a
-          className="px-6 py-3 my-4 font-semibold text-white bg-red-600 rounded-full text-center"
-          rel="noopener noreferrer"
-          href="https://tedxycce.github.io/tedxycce_21/"
-          target="_blank"
-        >
-          TEDxYCCE 2021
-          <svg
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            stroke="currentColor"
-            strokeWidth="2"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="inline ml-1"
-          >
-            <polyline points="9 18 15 12 9 6"></polyline>
-          </svg>
-        </a>
+      <div className="text-center">
+        <Button
+          title="TEDxYCCE 2021"
+          url="https://tedxycce.github.io/tedxycce_21/"
+          className="my-4 lg:mt-8"
+        />
       </div>
     </section>
   );
