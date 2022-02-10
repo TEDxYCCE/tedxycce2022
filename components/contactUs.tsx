@@ -67,7 +67,7 @@ const ContactUs = () => {
             </svg>
             organizer@tedxycce.in
           </a>
-          <a
+          {/* <a
             href="tel:+91 9999999999"
             target="_blank"
             rel="noreferrer"
@@ -89,7 +89,7 @@ const ContactUs = () => {
               />
             </svg>
             +91 86685 50779
-          </a>
+          </a> */}
           <a
             target="_blank"
             rel="noreferrer"
