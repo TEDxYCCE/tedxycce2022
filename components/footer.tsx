@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="container flex flex-col items-center content-center p-6 pt-8 mx-auto text-white bg-black lg:flex-row-reverse lg:justify-between lg:mt-10">
       <div>
-        <ul id="socials" className="inline-flex justify-center gap-4 p-2 mt-10 text-red-700 lg:mt-0 lg:gap-10">
+        <ul id="socials" className="inline-flex justify-center gap-10 p-2 mt-10 mb-6 text-red-700 lg:mb-0 lg:gap-4 lg:mt-0 lg:gap-10">
           <li>
             <a
               href="https://www.facebook.com/tedxycceofficial"
@@ -94,7 +94,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="">
+      <div className="text-center lg:text-left">
         <p className="mt-2 text-xl">Copyright © 2022 TEDxYCCE</p>
         <p className="my-2 text-justify text-gray-400">
           This independent TEDx event is operated under license from TED.
