@@ -12,8 +12,7 @@ const Home: NextPage = () => {
         <title>TEDxYCCE 2022 | Sponsors</title>
       </Head>
       <Header />
-      <main className="">
-        {/* <h1 className="text-2xl text-white">Welcome</h1> */}
+      <main className="flex-1">
         <BlankSpace />
       </main>
       <Footer />
