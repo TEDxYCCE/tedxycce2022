@@ -13,8 +13,8 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <main className="my-12">
-        <div className="container flex flex-col gap-16 mx-auto mb-16 text-white lg:flex-row ">
-          <div className="w-full px-10 lg:w-1/2">
+        <div className="container flex flex-col justify-center gap-16 mx-auto mb-16 text-white lg:flex-row ">
+          <div className="w-full h-screen px-10 lg:w-1/2">
             <h2 className="text-3xl font-semibold">What is TEDx?</h2>
             <div className="my-5 text-xl tracking-wider">
               Ideas Worth Spreading
