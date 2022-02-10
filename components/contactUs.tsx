@@ -44,10 +44,10 @@ const ContactUs = () => {
         </form>
       </div>
       <div className="flex flex-col text-red-700">
-        <h2 className="text-3xl font-semibold pb-9 text-white">
+        <h2 className="text-3xl font-semibold text-white pb-9">
           Where can you find us
         </h2>
-        <div className="py-2 flex gap-2">
+        <div className="flex gap-2 py-2">
           <svg
             className="h-7 w-7 "
             xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const ContactUs = () => {
             organizer@tedxycce.in
           </a>
         </div>
-        <div className="py-2 flex gap-2">
+        <div className="flex gap-2 py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7 "
@@ -99,7 +99,7 @@ const ContactUs = () => {
             (Same for Whatsapp)
           </a>
         </div>
-        <div className="py-2 flex gap-2">
+        <div className="flex gap-2 py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7"
@@ -126,8 +126,8 @@ const ContactUs = () => {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.4356442935323!2d78.9785723!3d21.0951911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4952117eaac51%3A0x6d8277793eb63d6a!2sYeshwantrao%20Chavan%20College%20of%20Engineering%20(YCCE)%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1644498444516!5m2!1sen!2sin"
           width="600"
-          height="450"
-          className="border-0 py-2"
+          height="250"
+          className="py-2 border-0"
           allowFullScreen={false}
           loading="lazy"
         ></iframe>
