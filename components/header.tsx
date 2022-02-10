@@ -4,8 +4,8 @@ import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="bg-black sticky top-0 z-10 text-red-600">
-      <div className="container mx-auto w-full flex flex-col lg:flex-row items-center justify-between p-4">
+    <header className="sticky top-0 z-10 text-red-600 bg-black">
+      <div className="container flex flex-col items-center justify-between w-full p-4 mx-auto lg:flex-row">
         <Link href="/">
           <a className="w-56">
             <Image
@@ -33,7 +33,7 @@ const Header = () => {
               <Link href="/sponsors">SPONSORS</Link>
             </li>
             <li>
-              <Link href="/contact">CONTACT US</Link>
+              <Link href="/#contact">CONTACT US</Link>
             </li>
           </ul>
         </nav>
