@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import BlankSpace from "../components/blankspace";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -122,7 +121,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        {/* <BlankSpace /> */}
       </main>
       <Footer />
     </div>

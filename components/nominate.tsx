@@ -16,7 +16,7 @@ const Nominate = () => {
         </div>
       </h2>
 
-      <div className="flex flex-col mx-auto md:flex-row md:px-24 lg:space-x-24">
+      <div className="flex flex-col py-10 mx-auto md:flex-row md:px-24 lg:space-x-24">
         <div className="p-4 mx-auto text-center ">
           <h2 className="my-4 text-2xl font-bold text-white">
             Call for Speakers
