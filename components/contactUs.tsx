@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
-    <div className="container flex flex-col lg:flex-row items-center justify-center gap-12 mx-auto text-white">
-      <div className="w-full lg:w-1/3 px-3">
+    <div className="container flex flex-col lg:flex-row items-center justify-center gap-12 mx-auto text-white px-8 lg:px-2">
+      <div className="w-full sm:w-2/3 lg:w-1/3 px-3">
         <h3 className="mb-6 text-3xl font-semibold">
           {" "}
           Feel free to ask anything
@@ -43,7 +43,7 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
-      <div className="flex flex-col text-red-700">
+      <div className="w-full sm:w-2/3 lg:w-1/3 px-3 flex flex-col text-red-700">
         <h2 className="text-3xl font-semibold text-white pb-9">
           Where can you find us
         </h2>
@@ -125,9 +125,9 @@ const ContactUs = () => {
 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.4356442935323!2d78.9785723!3d21.0951911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4952117eaac51%3A0x6d8277793eb63d6a!2sYeshwantrao%20Chavan%20College%20of%20Engineering%20(YCCE)%2C%20Nagpur!5e0!3m2!1sen!2sin!4v1644498444516!5m2!1sen!2sin"
-          // width="600"
-          // height="250"
-          className="h-80 w-96 py-2 border-0"
+          width="100%"
+          height="250"
+          //className="h-80 w-96 py-2 border-0"
           allowFullScreen={false}
           loading="lazy"
         ></iframe>
