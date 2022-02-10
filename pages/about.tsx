@@ -71,7 +71,7 @@ const Home: NextPage = () => {
             <div className="text-center ">
               <h3 className="text-xl">Wondering what TED is about?</h3>
 
-              <h2 className="pb-6 text-3xl font-bold">Here is About TED</h2>
+              <h2 className="pb-6 mb-8 text-3xl font-bold">Here is About TED</h2>
               <p className="container max-w-2xl mx-auto mb-4 text-lg font-light text-justify text-gray-600">
                 TED is a nonprofit organization devoted to Ideas Worth
                 Spreading. Started as a four-day conference in California 30
@@ -100,6 +100,7 @@ const Home: NextPage = () => {
                 TED-style events around the world, and the TED Fellows program,
                 helping world-changing innovators from around the globe to
                 amplify the impact of their remarkable projects and activities.{" "}
+                <br />
                 <br />
                 Follow TED on Twitter at{" "}
                 <a
