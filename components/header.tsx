@@ -14,6 +14,7 @@ const Header = () => {
               height={205}
               width={782}
               alt="TEDx_Logo"
+              placeholder="blur"
             />
           </a>
         </Link>

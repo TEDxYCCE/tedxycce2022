@@ -13,13 +13,13 @@ const PastEvents = () => {
       {/* Stairs layout */}
       <div className="flex flex-row gap-1 my-6 lg:gap-4">
         <div className="w-1/3">
-          <Image src={Img1} alt="past event image" />
+          <Image src={Img1} alt="past event image" placeholder="blur" />
         </div>
         <div className="w-1/3 -mt-10">
-          <Image src={Img2} alt="past event image" />
+          <Image src={Img2} alt="past event image" placeholder="blur" />
         </div>
         <div className="w-1/3 -mt-20">
-          <Image src={Img3} alt="past event image" />
+          <Image src={Img3} alt="past event image" placeholder="blur" />
         </div>
       </div>
       {/* desc */}
