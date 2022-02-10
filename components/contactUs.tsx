@@ -11,7 +11,7 @@ const ContactUs = () => {
           className="flex flex-col w-full mt-4 "
         >
           <input type="hidden" name="_template" value="table" />
-          {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/> */}
+          {/* <input type="hidden" name="_next" value="http://www.tedxycce.in/thanks"/> */}
           <input
             type="text"
             placeholder="Name"
