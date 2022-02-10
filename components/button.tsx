@@ -1,22 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-const RightArrow = (
-  <svg
-    viewBox="0 0 24 24"
-    width="24"
-    height="24"
-    stroke="currentColor"
-    strokeWidth="2"
-    fill="none"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="inline ml-1 group-hover:translate-x-1 transition-transform"
-  >
-    <polyline points="9 18 15 12 9 6"></polyline>
-  </svg>
-);
-
 type ButtonComponentPropTypes = {
   title: string;
   type: "internal" | "external";
@@ -39,7 +23,19 @@ const Button = React.forwardRef<HTMLAnchorElement, ButtonComponentPropTypes>(
             : {})}
         >
           {title}
-          {RightArrow}
+          <svg
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            stroke="currentColor"
+            strokeWidth="2"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="inline ml-1 group-hover:translate-x-1 transition-transform"
+          >
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
         </a>
       </Link>
     );
