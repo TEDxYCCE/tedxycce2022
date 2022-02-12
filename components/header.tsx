@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../assets/logo.png";
 
+const navLinkClasses =
+  "hover:text-red-100 focus:text-red-100 transition-colors";
 const Header = () => {
   return (
     <header className="sticky top-0 z-10 text-red-600 bg-black">
@@ -20,20 +22,20 @@ const Header = () => {
         </Link>
         <nav className="mt-2 lg:mt-0">
           <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
-            <li>
+            <li className={navLinkClasses}>
               <Link href="/about">ABOUT</Link>
             </li>
-            <li>
+            <li className={navLinkClasses}>
               <Link href="/speakers">SPEAKERS</Link>
             </li>
-            <li>
+            <li className={navLinkClasses}>
               {/* TODO: Link to nomination section on home page */}
               <Link href="/#nominations">NOMINATIONS</Link>
             </li>
-            <li>
+            <li className={navLinkClasses}>
               <Link href="/sponsors">SPONSORS</Link>
             </li>
-            <li>
+            <li className={navLinkClasses}>
               <Link href="/#contact">CONTACT US</Link>
             </li>
           </ul>
