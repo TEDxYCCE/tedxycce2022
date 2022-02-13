@@ -9,3 +9,14 @@ body {
   font-family: "Plus Jakarta Display", sans-serif;
   scroll-behavior: smooth;
 }
+
+.navLink {
+  transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(to right, #991b1b, #b91c1c);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0 55%;
+}
+.navLink:hover {
+  background-size: 90% 55%;
+}

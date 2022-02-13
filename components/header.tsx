@@ -2,11 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../assets/logo.png";
 
-const navLinkClasses =
-  "hover:text-red-100 focus:text-red-100 transition-colors";
+const navLinkClasses = "navLink px-1 hover:text-red-50 focus:text-red-100";
 const Header = () => {
   return (
-    <header className="sticky top-0 z-10 text-red-600 bg-black">
+    <header className="sticky top-0 z-10 text-red-600 bg-transparent backdrop-blur">
       <div className="container flex flex-col items-center justify-between w-full p-4 mx-auto lg:flex-row">
         <Link href="/">
           <a className="w-56">
