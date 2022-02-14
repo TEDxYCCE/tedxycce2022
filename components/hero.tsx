@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 const Hero = () => {
   return (
     <div className="text-white">
-      <div className="w-full min-h-screen relative bg-[url('/images/hero-background-compressed.png')] bg-no-repeat bg-left">
+      <div className="w-full min-h-screen relative bg-[url('/images/hero-background-compressed.png')] bg-no-repeat bg-left bg-fixed">
         <div className="w-full h-full absolute bg-black bg-opacity-50">
           <div className="w-full h-full flex flex-col items-center pt-52">
             <div className="text-white">
@@ -46,6 +46,7 @@ const Hero = () => {
                 height={205}
                 width={782}
                 alt="TEDx_Logo"
+                placeholder="blur"
               />
             </div>
             <p className="text-3xl font-semibold lg:text-5xl mt-4 lg:mt-8 py-2">
@@ -56,6 +57,14 @@ const Hero = () => {
             </p>
           </div>
         </div>
+
+        {/* Curtain Revel */}
+        {/* <div className="h-full w-full absolute left-0 top-0 hidden md:block">
+          <div className="relative h-full w-full overflow-hidden group pointer-events-auto">
+            <div className="absolute top-0 left-0 h-full w-1/2 bg-black/80 group-hover:-translate-x-full transition-transform duration-700 ease-in-out delay-200"></div>
+            <div className="absolute top-0 right-0 h-full w-1/2 bg-black/80 group-hover:translate-x-full transition-transform duration-700 ease-in-out delay-200"></div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
