@@ -2,7 +2,10 @@ const Footer = () => {
   return (
     <footer className="container flex flex-col items-center content-center p-6 py-10 mx-auto text-white bg-black lg:flex-row-reverse lg:justify-between ">
       <div>
-        <ul id="socials" className="inline-flex justify-center gap-10 p-2 mb-6 text-red-700 lg:mb-0 lg:gap-10">
+        <ul
+          id="socials"
+          className="inline-flex justify-center gap-10 p-2 mb-6 text-red-700 lg:mb-0 lg:gap-10"
+        >
           <li>
             <a
               href="https://www.facebook.com/tedxycceofficial"

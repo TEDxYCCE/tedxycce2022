@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const ContactUs = () => {
   return (
-    <section id="contact">
+    <section id="contact" className="pt-14 pb-8">
       <SectionHeading title="Contact us" />
       <div className="container flex flex-col items-center justify-center gap-12 px-8 mx-auto text-white lg:items-start lg:flex-row lg:px-2">
         <div className="w-full px-3 sm:w-2/3 lg:w-1/3">
