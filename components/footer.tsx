@@ -3,9 +3,29 @@ import Link from "next/link";
 const navLinkClasses = "px-1 hover:text-red-700 focus:text-red-100";
 const Footer = () => {
   return (
-    <footer className=" bg-white/[.05] border-t-2 border-white/[.09]">
+    <footer className=" bg-white/[.05] border-t-4 border-white/[.09]">
       <div className="container flex flex-col items-center content-center p-6 py-10 mx-auto text-white lg:flex-row-reverse lg:justify-between">
         <div className="flex flex-col items-center lg:items-end">
+          <nav className="pb-8 mt-2 lg:mt-0">
+            <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
+              <li className={navLinkClasses}>
+                <Link href="/about">ABOUT</Link>
+              </li>
+              <li className={navLinkClasses}>
+                <Link href="/speakers">SPEAKERS</Link>
+              </li>
+              <li className={navLinkClasses}>
+                {/* TODO: Link to nomination section on home page */}
+                <Link href="/#nominations">NOMINATIONS</Link>
+              </li>
+              <li className={navLinkClasses}>
+                <Link href="/sponsors">SPONSORS</Link>
+              </li>
+              <li className={navLinkClasses}>
+                <Link href="/#contact">CONTACT US</Link>
+              </li>
+            </ul>
+          </nav>
           <ul
             id="socials"
             className="inline-flex justify-center gap-10 p-2 mb-6 text-red-700 lg:mb-0 lg:gap-10"
@@ -120,7 +140,7 @@ const Footer = () => {
         </div>
         <div className="text-center lg:text-left">
           <p className="mt-2 text-xl">Copyright © 2022 TEDxYCCE</p>
-          <p className="my-2 text-justify text-gray-400">
+          <p className="my-2 text-center lg:text-justify text-gray-400">
             This independent TEDx event is operated under license from TED.
           </p>
         </div>
