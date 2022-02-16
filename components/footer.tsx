@@ -50,7 +50,7 @@ const Footer = () => {
                   className="w-10 h-10 group hover:fill-red-700 transition-colors"
                 >
                   <rect
-                    className="group-hover:text-red-900/[0.9] transition-colors"
+                    className="group-hover:text-black transition-colors"
                     x="2"
                     y="2"
                     width="20"
@@ -59,11 +59,11 @@ const Footer = () => {
                     ry="5"
                   ></rect>
                   <path
-                    className="group-hover:text-red-900/[0.9] transition-colors"
+                    className="group-hover:fill-black transition-colors"
                     d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
                   ></path>
                   <line
-                    className="group-hover:text-red-900/[0.9] transition-colors"
+                    className="group-hover:text-black transition-color"
                     x1="17.5"
                     y1="6.5"
                     x2="17.51"
