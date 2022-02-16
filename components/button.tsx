@@ -28,12 +28,12 @@ const Button = React.forwardRef<HTMLAnchorElement, IButtonProps>(
     ref
   ) => {
     const aClasses =
-      "rounded-xl group font-semibold inline-flex justify-center px-6 py-3 transition-colors focus:ring-2 focus:ring-red-800";
+      "rounded-xl group font-semibold inline-flex justify-center px-6 py-3 transition-colors";
     const aTextClasses = "text-red-500 hover:text-red-600/80";
     const aFilledClasses =
-      "text-white bg-red-600 hover:bg-red-600/80 shadow-[0_10px_15px_-3px_rgba(255,0,0,0.3),0_4px_6px_-4px_rgba(255,0,0,0.3)]";
+      "text-white bg-red-600 hover:bg-red-600/80 focus:ring-2 focus:ring-red-800 shadow-[0_10px_15px_-3px_rgba(255,0,0,0.3),0_4px_6px_-4px_rgba(255,0,0,0.3)]";
     const aOutlinedClasses =
-      "ring-2 ring-red-800 text-red-500 hover:bg-red-800 hover:text-gray-100";
+      "ring-2 ring-red-800 text-red-500 hover:bg-red-800 hover:text-gray-100 focus:ring-2 focus:ring-red-800";
     return (
       <Link href={href}>
         <a
