@@ -22,6 +22,7 @@ const Header = () => {
       ham.classList.add("hamburgerInvisible");
 
       navULRef.current?.classList.toggle("hidden");
+      navULRef.current?.classList.toggle("flex");
     } else {
       ham.classList.add("hamburgerVisible");
       ham.classList.remove("hamburgerInvisible");
@@ -30,6 +31,7 @@ const Header = () => {
       close.classList.remove("closeVisible");
 
       navULRef.current?.classList.toggle("hidden");
+      navULRef.current?.classList.toggle("flex");
     }
   };
 
@@ -85,9 +87,9 @@ const Header = () => {
             </svg>
           </div>
         </div>
-        <nav>
+        <nav className="w-full md:w-fit">
           <ul
-            className="hidden md:flex items-center justify-center gap-2 font-semibold lg:gap-8 mt-2 lg:mt-0"
+            className="hidden md:flex flex-wrap items-center justify-center gap-2 font-semibold lg:gap-8 mt-2 lg:mt-0 text-center"
             ref={navULRef}
           >
             <li className={navLinkClasses}>
