@@ -20,3 +20,17 @@ body {
 .navLink:hover {
   background-size: 90% 55%;
 }
+
+.hamburgerVisible {
+  @apply opacity-100;
+}
+.hamburgerInvisible {
+  @apply translate-x-full opacity-0;
+}
+
+.closeVisible {
+  @apply translate-x-full opacity-100;
+}
+.closeInvisible {
+  @apply -translate-x-full opacity-0;
+}
