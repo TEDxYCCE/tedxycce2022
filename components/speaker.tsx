@@ -11,7 +11,7 @@ interface ISpeakerProps {
 const Speaker = ({ name, title, shortDesc, desc, photo }: ISpeakerProps) => {
   return (
     <div className="p-4 lg:w-1/4 md:w-1/2">
-      <div className="flex flex-col items-center h-full text-center">
+      <div className="flex flex-col items-center h-full text-center grayscale hover:grayscale-0 transition-all duration-150">
         <Image
           alt="team"
           className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
@@ -25,7 +25,7 @@ const Speaker = ({ name, title, shortDesc, desc, photo }: ISpeakerProps) => {
             {name}
           </h2>
           <h3 className="mb-3 text-gray-500">{title}</h3>
-          <p className="mb-4">{ shortDesc||desc}</p>
+          <p className="mb-4">{shortDesc || desc}</p>
         </div>
       </div>
     </div>

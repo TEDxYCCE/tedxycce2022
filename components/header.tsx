@@ -96,14 +96,15 @@ const Header = () => {
               <Link href="/about">ABOUT</Link>
             </li>
             <li className={navLinkClasses}>
-              <Link href="/speakers">SPEAKERS</Link>
+              <Link href="/#speakers">SPEAKERS</Link>
             </li>
-            <li className={navLinkClasses}>
-              {/* TODO: Link to nomination section on home page */}
+            {/* <li className={navLinkClasses}>
               <Link href="/#nominations">NOMINATIONS</Link>
-            </li>
+            </li> */}
             <li className={navLinkClasses}>
-              <Link href="/sponsors">SPONSORS</Link>
+              <Link href="/Sponsorship_Proposal_2022.pdf">
+                <a target="_blank">SPONSORS </a>
+              </Link>
             </li>
             <li className={navLinkClasses}>
               <Link href="/#contact">CONTACT US</Link>
