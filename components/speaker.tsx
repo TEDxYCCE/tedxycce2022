@@ -15,7 +15,9 @@ const Speaker = ({ name, title, desc, photo }: ISpeakerProps) => {
           alt="team"
           className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
           src={photo}
-          layout="fill"
+          layout="intrinsic"
+          width={640}
+          height={480}
         />
         <div className="w-full">
           <h2 className="mt-2 title-font font-medium text-lg text-white">
