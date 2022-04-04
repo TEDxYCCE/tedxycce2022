@@ -4,27 +4,28 @@ import React from "react";
 interface ISpeakerProps {
   name: string;
   title: string;
+  shortDesc: string;
   desc: string;
   photo: string;
 }
-const Speaker = ({ name, title, desc, photo }: ISpeakerProps) => {
+const Speaker = ({ name, title, shortDesc, desc, photo }: ISpeakerProps) => {
   return (
     <div className="p-4 lg:w-1/4 md:w-1/2">
-      <div className="h-full flex flex-col items-center text-center">
+      <div className="flex flex-col items-center h-full text-center">
         <Image
           alt="team"
-          className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+          className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
           src={photo}
           layout="intrinsic"
           width={640}
           height={480}
         />
         <div className="w-full">
-          <h2 className="mt-2 title-font font-medium text-lg text-white">
+          <h2 className="mt-2 text-lg font-medium text-white title-font">
             {name}
           </h2>
-          <h3 className="text-gray-500 mb-3">{title}</h3>
-          <p className="mb-4">{desc}</p>
+          <h3 className="mb-3 text-gray-500">{title}</h3>
+          <p className="mb-4">{ shortDesc||desc}</p>
         </div>
       </div>
     </div>
