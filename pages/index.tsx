@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Hero from "../components/hero";
 import Nominate from "../components/nominate";
 import PastEvents from "../components/pastEvents";
+import Speakers from "../components/speakers";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,8 @@ const Home: NextPage = () => {
       <main className="flex-1">
         {/* <h1 className="text-2xl text-white">Welcome</h1> */}
         <Hero />
-        <Nominate />
+        <Speakers />
+        {/* <Nominate /> */}
         <PastEvents />
         <ContactUs />
       </main>
