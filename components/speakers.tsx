@@ -15,7 +15,7 @@ const Speakers = () => {
             Our speakers for TEDxYCCE 2022
           </div>
         </h2>
-        <div className="flex flex-wrap -m-4 justify-center">
+        <div className="flex flex-wrap lg:-m-4 justify-center">
           {speakersData.map((speaker, index) => (
             <Speaker key={index} {...speaker} />
           ))}

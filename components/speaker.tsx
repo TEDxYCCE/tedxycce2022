@@ -10,16 +10,18 @@ interface ISpeakerProps {
 }
 const Speaker = ({ name, title, shortDesc, desc, photo }: ISpeakerProps) => {
   return (
-    <div className="p-4 lg:w-1/4 md:w-1/2">
-      <div className="flex flex-col items-center h-full text-center grayscale hover:grayscale-0 transition-all duration-150">
-        <Image
-          alt="team"
-          className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
-          src={photo}
-          layout="intrinsic"
-          width={640}
-          height={480}
-        />
+    <div className="p-6 md:p-4 lg:w-1/3 md:w-1/2">
+      <div className="flex flex-col items-center h-full text-center lg:grayscale hover:grayscale-0 transition-all duration-150">
+        <div className="mb-4 w-full">
+          <Image
+            alt="team"
+            className="flex-shrink-0 object-cover object-center w-full h-56 rounded-lg"
+            src={photo}
+            layout="intrinsic"
+            width={640}
+            height={480}
+          />
+        </div>
         <div className="w-full">
           <h2 className="mt-2 text-lg font-medium text-white title-font">
             {name}
