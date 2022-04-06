@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-10 text-red-600 bg-black/30 backdrop-blur">
       <div className="container flex flex-col items-center w-full p-4 mx-auto lg:flex-row">
-        <div className="px-2 md:px-0 w-full flex flex-1 justify-around md:justify-start">
+        <div className="flex justify-around flex-1 w-full px-2 md:px-0 md:justify-start">
           <Link href="/">
             <a className="w-40 md:w-56">
               <Image
@@ -51,7 +51,7 @@ const Header = () => {
               />
             </a>
           </Link>
-          <div className="md:hidden inline-flex items-center">
+          <div className="inline-flex items-center md:hidden">
             <svg
               viewBox="0 0 24 24"
               width="24"
@@ -61,7 +61,7 @@ const Header = () => {
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="closeInvisible h-8 w-8 transition-all duration-500"
+              className="w-8 h-8 transition-all duration-500 closeInvisible"
               ref={closeRef}
               onClick={toggleMenuIcons}
             >
@@ -77,7 +77,7 @@ const Header = () => {
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="h-8 w-8 transition-all duration-500"
+              className="w-8 h-8 transition-all duration-500"
               ref={hamBurgerRef}
               onClick={toggleMenuIcons}
             >
@@ -89,7 +89,7 @@ const Header = () => {
         </div>
         <nav className="w-full md:w-fit">
           <ul
-            className="hidden md:flex flex-wrap items-center justify-center gap-2 font-semibold lg:gap-8 mt-2 lg:mt-0 text-center"
+            className="flex-wrap items-center justify-center hidden gap-2 mt-2 font-semibold text-center md:flex lg:gap-8 lg:mt-0"
             ref={navULRef}
           >
             <li className={navLinkClasses}>
@@ -103,7 +103,7 @@ const Header = () => {
             </li> */}
             <li className={navLinkClasses}>
               <Link href="/Sponsorship_Proposal_2022.pdf">
-                <a target="_blank">SPONSORS </a>
+                <a target="_blank">SPONSOR OUR EVENT </a>
               </Link>
             </li>
             <li className={navLinkClasses}>

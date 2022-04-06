@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className="text-white">
       <div className="w-full min-h-screen relative bg-[url('/images/hero-background-compressed.webp')] bg-no-repeat bg-left bg-fixed">
-        <div className="w-full h-full absolute bg-black bg-opacity-50">
-          <div className="w-full h-full flex flex-col items-center pt-52">
+        <div className="absolute w-full h-full bg-black bg-opacity-50">
+          <div className="flex flex-col items-center w-full h-full pt-52">
             <div className="text-white">
               {/* <Image
                 src="/images/pulse.svg"
@@ -39,7 +39,7 @@ const Hero = () => {
                 />
               </svg>
             </div>
-            <div className="w-80 -mt-2 xs:w-76 xs:-mt-3 md:w-96 md:-mt-4 lg:w-1/3 lg:-mt-8">
+            <div className="-mt-2 w-80 xs:w-76 xs:-mt-3 md:w-96 md:-mt-4 lg:w-1/3 lg:-mt-8">
               <Image
                 src={logo}
                 layout="intrinsic"
@@ -49,20 +49,20 @@ const Hero = () => {
                 placeholder="blur"
               />
             </div>
-            <p className="text-3xl font-semibold lg:text-5xl mt-4 lg:mt-8 py-2">
-              Coming Soon
+            <p className="py-2 mt-4 text-3xl font-semibold lg:text-5xl lg:mt-8">
+              Voices on The Verge
             </p>
-            <p className="text-2xl lg:text-3xl py-2">
+            <p className="py-2 text-2xl lg:text-3xl">
               April 23<sup>rd</sup>, 2022
             </p>
           </div>
         </div>
 
         {/* Curtain Revel */}
-        {/* <div className="h-full w-full absolute left-0 top-0 hidden md:block">
-          <div className="relative h-full w-full overflow-hidden group pointer-events-auto">
-            <div className="absolute top-0 left-0 h-full w-1/2 bg-black/80 group-hover:-translate-x-full transition-transform duration-700 ease-in-out delay-200"></div>
-            <div className="absolute top-0 right-0 h-full w-1/2 bg-black/80 group-hover:translate-x-full transition-transform duration-700 ease-in-out delay-200"></div>
+        {/* <div className="absolute top-0 left-0 hidden w-full h-full md:block">
+          <div className="relative w-full h-full overflow-hidden pointer-events-auto group">
+            <div className="absolute top-0 left-0 w-1/2 h-full transition-transform duration-700 ease-in-out delay-200 bg-black/80 group-hover:-translate-x-full"></div>
+            <div className="absolute top-0 right-0 w-1/2 h-full transition-transform duration-700 ease-in-out delay-200 bg-black/80 group-hover:translate-x-full"></div>
           </div>
         </div> */}
       </div>
@@ -73,7 +73,7 @@ const Hero = () => {
 export default Hero;
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  className="h-6 w-6"
+  className="w-6 h-6"
   fill="none"
   viewBox="0 0 24 24"
   stroke="currentColor"
