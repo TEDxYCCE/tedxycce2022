@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const ContactUs = () => {
   return (
-    <section id="contact" className="pt-14 pb-8">
+    <section id="contact" className="pb-8 pt-14">
       <SectionHeading title="Contact us" />
       <div className="container flex flex-col items-center justify-center gap-12 px-8 mx-auto text-white lg:items-start lg:flex-row lg:px-2">
         <div className="w-full px-3 sm:w-2/3 lg:w-1/3">
@@ -22,6 +22,7 @@ const ContactUs = () => {
               placeholder="Name"
               name="name"
               className="px-4 py-4 mb-4 text-black rounded-lg"
+              required
             />
             <input
               type="hidden"
@@ -34,15 +35,17 @@ const ContactUs = () => {
               name="email"
               placeholder="Email"
               className="px-4 py-4 mb-4 text-black rounded-lg "
+              required
             />
             <textarea
               placeholder="Message"
               name="message"
               className="h-40 px-4 py-4 mb-4 text-black rounded-lg "
+              required
             />
             <button
               type="submit"
-              className="px-4 py-4 mb-4 text-xl ring-2 ring-red-800 text-red-500 hover:bg-red-800 hover:text-gray-100 transition-colors rounded-xl"
+              className="px-4 py-4 mb-4 text-xl text-red-500 transition-colors ring-2 ring-red-800 hover:bg-red-800 hover:text-gray-100 rounded-xl"
             >
               Send Message
             </button>
