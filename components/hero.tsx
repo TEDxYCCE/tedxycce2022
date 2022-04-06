@@ -49,7 +49,7 @@ const Hero = () => {
                 placeholder="blur"
               />
             </div>
-            <p className="py-2 pt-20 mt-4 text-3xl font-semibold lg:text-5xl lg:mt-8">
+            <p className="py-2 mt-4 text-3xl font-semibold lg:text-5xl lg:mt-8">
               Voices on The Verge
             </p>
             <p className="py-2 text-2xl lg:text-3xl">
