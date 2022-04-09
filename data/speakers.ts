@@ -1,6 +1,6 @@
 import getPhotoURL from "../utils/getPhotoURL";
 
-interface speaker {
+export interface ISpeaker {
   name: string;
   title: string;
   shortDesc: string;
@@ -8,7 +8,7 @@ interface speaker {
   photo: string;
 }
 
-export const speakersData: speaker[] = [
+export const speakersData: ISpeaker[] = [
   {
     name: "Drishti Sharma",
     title: "Prominent Journalist",
@@ -57,7 +57,7 @@ export const speakersData: speaker[] = [
     title: "Executive Secretary, European Polar Board",
     shortDesc:
       "Dr. Renuka Badhe currently serves as the Executive Secretary of the European Polar Board, and is based in the Netherlands.",
-    desc: "This is my description dosto. My hun jiyan, mehu bada takarvar. Mera gala hai bohot surila!",
+    desc: "Dr. Renuka Badhe currently serves as the Executive Secretary of the European Polar Board, and is based in the Netherlands. Her background is in economics and public policy, and she holds a PhD on southern ocean phytoplankton physiology. Renuka has worked with a range international organisations on various aspects of polar science, policy and/or strategy development. Her current responsibilities include serving as a Chair of EU-PolarNet project's External Expert Advisory Board, and service on many national and international committees. She is particularly interested in promoting polar research to a wide audience using a variety of traditional and non-traditional communication tools, and projects looking at the interface between governance, science, and policy in the polar regions.",
     photo: getPhotoURL("4", true),
   },
   // {
