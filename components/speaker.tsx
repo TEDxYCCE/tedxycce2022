@@ -43,16 +43,22 @@ const Speaker = ({
 
   return (
     <div
-      className={`p-6 md:p-4 lg:w-1/3 md:w-1/2 ${
-        detailedView && "bg-white/5 rounded-lg "
+      className={`p-6 md:p-4 flex justify-center ${
+        detailedView ? "w-full bg-white/5 rounded-lg" : "lg:w-1/3 md:w-1/2"
       }`}
     >
       <div
-        className={`flex flex-col items-center h-full text-center transition-all duration-150 ${
-          !detailedView && "lg:grayscale hover:grayscale-0"
+        className={`flex items-center h-full text-center transition-all duration-150 ${
+          !detailedView
+            ? "flex-col lg:grayscale hover:grayscale-0"
+            : "lg:w-full flex-col lg:flex-row"
         }`}
       >
-        <div className="relative mb-4 w-full">
+        <div
+          className={`relative w-full flex justify-center ${
+            detailedView ? "py-4" : "mb-4"
+          }`}
+        >
           <Image
             alt="team"
             className="flex-shrink-0 object-cover object-center w-full h-56 rounded-lg"
@@ -61,22 +67,33 @@ const Speaker = ({
             width={640}
             height={480}
           />
-          <div
-            className={`absolute bottom-2 right-2 px-4 py-1 mb-1 rounded-lg text-gray-200 bg-black hover:bg-red-800 transition-all hover:cursor-pointer ${
-              expanded && "bg-red-800"
-            }`}
-            onClick={handleReadMore}
-          >
-            {!expanded ? "Read more" : "Close"}
-          </div>
+          {/* hide close btn in DetailedView */}
+          {!detailedView && (
+            <div
+              className={`absolute bottom-2 right-2 px-4 py-1 mb-1 rounded-lg text-gray-200 bg-black hover:bg-red-800 transition-all hover:cursor-pointer ${
+                expanded && "bg-red-800"
+              }`}
+              onClick={handleReadMore}
+            >
+              {!expanded ? "Read more" : "Close"}
+            </div>
+          )}
         </div>
-        <div className="w-full">
-          <h2 className="mt-2 text-lg font-medium text-white title-font">
+        <div className={`w-full ${detailedView && "lg:pl-4"}`}>
+          <h2
+            className={`mt-2 font-medium text-white title-font ${
+              detailedView ? "text-2xl lg:text-3xl text-left" : "text-lg"
+            }`}
+          >
             {name}
           </h2>
-          <h3 className="mb-3 text-gray-500">{title}</h3>
+          <h3 className={`mb-3 text-gray-500 ${detailedView && "text-left"}`}>
+            {title}
+          </h3>
           <p
-            className={`mb-4 transition-all ${detailedView && "text-justify"}`}
+            className={`mb-4 transition-all ${
+              detailedView && "text-justify lg:pr-8"
+            }`}
           >
             {detailedView ? desc : shortDesc}
           </p>
