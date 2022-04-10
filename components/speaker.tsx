@@ -60,12 +60,15 @@ const Speaker = ({
           }`}
         >
           <Image
-            alt="team"
+            priority
+            alt={name}
             className="flex-shrink-0 object-cover object-center w-full h-56 rounded-lg"
             src={photo}
             layout="intrinsic"
             width={640}
             height={480}
+            placeholder="blur"
+            blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII="
           />
           {/* hide close btn in DetailedView */}
           {!detailedView && (
