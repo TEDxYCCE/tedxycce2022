@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>TEDxYCCE 2022 | About</title>
       </Head>
       <Header />
-      <main className="my-12">
+      <main className="mt-12">
         <div className="container flex flex-col justify-center gap-16 mx-auto mb-16 text-white py-28 lg:flex-row ">
           <div className="w-full px-10 h-4/6 lg:w-1/2">
             <h2 className="text-3xl font-semibold">What is TEDx?</h2>
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="my-4 bg-white ">
+        <div className="mt-4 bg-white ">
           <div className="container px-10 mx-auto text-black py-28">
             <div className="text-center ">
               <h3 className="text-xl">Wondering what TED is about?</h3>
