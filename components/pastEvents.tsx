@@ -1,9 +1,27 @@
 import Image from "next/image";
-import Img1 from "../assets/pastEvents/1.png";
-import Img2 from "../assets/pastEvents/2.png";
-import Img3 from "../assets/pastEvents/3.png";
+import Img1 from "../assets/pastEvents/1.jpeg";
+import Img2 from "../assets/pastEvents/2.jpeg";
+import Img3 from "../assets/pastEvents/3.jpeg";
+import Img4 from "../assets/pastEvents/4.jpeg";
+import Img5 from "../assets/pastEvents/5.jpeg";
+import Img6 from "../assets/pastEvents/6.jpg";
 import Button from "./button";
 import SectionHeading from "./sectionHeading";
+
+const PastEventImage = ({ img }: { img: StaticImageData }) => {
+  return (
+    <Image
+      src={img}
+      layout="intrinsic"
+      objectFit="cover"
+      alt="past event image"
+      placeholder="blur"
+    />
+  );
+};
+
+const stairsClasses =
+  "flex border-l-4 border-t-4 md:border-l-8 md:border-t-8 border-red-800 pl-1 py-1 gap-1";
 
 const PastEvents = () => {
   return (
@@ -12,18 +30,24 @@ const PastEvents = () => {
         <SectionHeading title="Past Events" />
 
         {/* Stairs layout */}
-        <div className="flex flex-row gap-1 my-6 lg:gap-4">
-          <div className="w-1/3">
-            <Image src={Img1} alt="past event image" placeholder="blur" />
-          </div>
-          <div className="w-1/3 -mt-10">
-            <Image src={Img2} alt="past event image" placeholder="blur" />
-          </div>
-          <div className="w-1/3 -mt-20">
-            <Image src={Img3} alt="past event image" placeholder="blur" />
+        <div className="-mt-28 w-full flex justify-center">
+          <div className="flex flex-col items-end my-6 w-full md:w-4/6">
+            <div className={`w-2/6 ${stairsClasses}`}>
+              <PastEventImage img={Img1} />
+            </div>
+            <div className={`w-4/6 ${stairsClasses}`}>
+              <PastEventImage img={Img2} />
+              <PastEventImage img={Img3} />
+            </div>
+            <div className={`${stairsClasses} pb-0`}>
+              <PastEventImage img={Img4} />
+              <PastEventImage img={Img5} />
+              <PastEventImage img={Img6} />
+            </div>
           </div>
         </div>
-        {/* desc */}
+
+        {/* description */}
         <div className="text-2xl text-center text-gray-300">
           Under the stairs
         </div>
@@ -43,7 +67,7 @@ const PastEvents = () => {
             type="external"
             variant="filled"
             href="https://tedxycce.github.io/tedxycce_21/"
-            className="my-4 lg:mt-8"
+            className="my-4"
           >
             TEDxYCCE 2021
           </Button>
