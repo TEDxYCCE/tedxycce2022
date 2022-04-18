@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 const Hero = () => {
   return (
     <div className="text-white">
-      <div className="w-full min-h-screen relative bg-[url('/images/hero-background-compressed.webp')] bg-no-repeat bg-left bg-fixed">
+      <div className="w-full min-h-screen relative bg-[url('/images/hero-background-compressed.webp')] bg-cover bg-no-repeat bg-left bg-fixed">
         <div className="absolute w-full h-full bg-black bg-opacity-50">
           <div className="flex flex-col items-center w-full h-full pt-52">
             <div className="text-white">
