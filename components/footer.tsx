@@ -128,7 +128,6 @@ const Footer = () => {
               <li className={navLinkClasses}>
                 <Link href="/about">ABOUT</Link>
               </li>
-
               <li className={navLinkClasses}>
                 <Link href="/sponsors">SPONSOR OUR EVENT</Link>
               </li>
@@ -137,7 +136,8 @@ const Footer = () => {
               </li>
               <li className={navLinkClasses}>
                 <Link href="/refund-policy">REFUND/CANCELLATION POLICY</Link>
-              </li>
+              </li>{" "}
+              {}
               <li className={navLinkClasses}>
                 <Link href="/#contact">CONTACT US</Link>
               </li>
