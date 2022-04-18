@@ -1,7 +1,7 @@
 import ParaHeading from "./paraHeading";
 
-const Thanks = () => (
-  <div className="container p-10 mx-auto text-center text-white border-2 border-red-800 ">
+const Privacy = () => (
+  <div className="container p-10 mx-auto mb-5 text-center text-white border-2 border-red-800 ">
     <h1 className="mb-5 text-2xl font-medium">Privacy Policy</h1>
     <div className="font-mono text-justify">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At tedxycce.in, accessible from
@@ -160,4 +160,4 @@ const Thanks = () => (
   </div>
 );
 
-export default Thanks;
+export default Privacy;

@@ -123,14 +123,20 @@ const Footer = () => {
           <nav className="pb-8 mt-2 lg:mt-0">
             <ul className="flex flex-wrap justify-center gap-2 font-semibold lg:gap-8">
               <li className={navLinkClasses}>
-                <Link href="/about">ABOUT</Link>
-              </li>
-              <li className={navLinkClasses}>
                 <Link href="/speakers">SPEAKERS</Link>
               </li>
-           
+              <li className={navLinkClasses}>
+                <Link href="/about">ABOUT</Link>
+              </li>
+
               <li className={navLinkClasses}>
                 <Link href="/sponsors">SPONSOR OUR EVENT</Link>
+              </li>
+              <li className={navLinkClasses}>
+                <Link href="/privacy-policy">PRIVACY POLICY</Link>
+              </li>
+              <li className={navLinkClasses}>
+                <Link href="/refund-policy">REFUND/CANCELLATION POLICY</Link>
               </li>
               <li className={navLinkClasses}>
                 <Link href="/#contact">CONTACT US</Link>
