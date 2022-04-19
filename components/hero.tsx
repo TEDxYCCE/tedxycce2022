@@ -53,7 +53,7 @@ const Hero = () => {
               Voices on The Verge
             </p>
             <p className="py-2 text-2xl lg:text-3xl">
-              April 23<sup>rd</sup>, 2022
+              April 30<sup>th</sup>, 2022
             </p>
           </div>
         </div>
