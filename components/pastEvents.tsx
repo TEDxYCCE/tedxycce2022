@@ -25,13 +25,13 @@ const stairsClasses =
 
 const PastEvents = () => {
   return (
-    <section className="bg-white/[.05] py-24">
-      <div className="container px-6 mx-auto lg:flex lg:flex-col lg:px-32">
+    <section className="">
+      <div className="container px-6 mx-auto lg:flex lg:flex-col py-24 lg:px-32">
         <SectionHeading title="Past Events" />
 
         {/* Stairs layout */}
-        <div className="flex justify-center w-full -mt-28">
-          <div className="flex flex-col items-end w-full my-6 md:w-4/6">
+        <div className="-mt-28 w-full flex justify-center">
+          <div className="flex flex-col items-end my-6 w-full md:w-4/6">
             <div className={`w-2/6 ${stairsClasses}`}>
               <PastEventImage img={Img1} />
             </div>
