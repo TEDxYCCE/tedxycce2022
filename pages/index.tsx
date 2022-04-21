@@ -7,6 +7,7 @@ import Hero from "../components/hero";
 import Nominate from "../components/nominate";
 import PastEvents from "../components/pastEvents";
 import Speakers from "../components/speakers";
+import Tickets from "../components/tickets";
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Hero />
         <Speakers />
         {/* <Nominate /> */}
+        <Tickets />
         <PastEvents />
         <ContactUs />
       </main>
