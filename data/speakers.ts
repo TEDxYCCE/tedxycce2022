@@ -10,6 +10,13 @@ export interface ISpeaker {
 
 export const speakersData: ISpeaker[] = [
   {
+    name: "Rohit Shyam Raut",
+    title: "Singer and Music Director",
+    shortDesc: "Rohit is a Singer and Music Director, who is famous by the name \"Powerhouse Rohit\"",
+    desc: "Indian singer and music director, who primarily works in the Marathi film industry. He is famous by name \"Powerhouse Rohit\".He was a judge in Marathi \"SaReGaMaPa Little Champs \". He  appeared in the Indian singing reality show Indian Idol and was the runner-up of its eleventh season.",
+    photo: getPhotoURL("0", true)
+  },
+  {
     name: "Prachi Tehlan",
     title: "Athelete and Actress",
     shortDesc:
@@ -43,10 +50,10 @@ export const speakersData: ISpeaker[] = [
   },
   {
     name: "Mrs Shilpa Agrawal",
-    title: "VIA Marketing Head & Mrs India Globe 2005",
+    title: "VIA Marketing Head & Mrs Universe lovely 2017",
     shortDesc:
-      "First Woman to Head Vidarbha Industries Association's Marketing Forum, 2005 Mrs India. ",
-    desc: "Mrs Shilpa Agrawal, known to be well known industrialist and many beauty contest winner. She is currently the first woman to head the Vidharbha Industries Association's marketing forum. Also awarded as Mrs India Globe 2015. Shilpa was also selected for Mrs Universe among various 'industrialist of the region' award.\
+      "Industrialist and Director of Akash Furnitech Pvt ltd , Mrs Universe lovely 2017. ",
+    desc: "Mrs Shilpa Agrawal, known to be well known industrialist and Director of Akash Furnitech Pvt ltd and many beauty contest winner. She is currently the first woman to head the Vidharbha Industries Association's marketing forum. Also awarded as Mrs Universe lovely 2017. Shilpa was also selected for Mrs Universe among various 'industrialist of the region' award.\
     She has her believe in perseverance as well as following one's true dreams and passion.\
     Also participated in National's Women's Parliament as a mentor.\
     Her journey, how she excel and still is exploring, also her life was not always sparkling and shining, she overcame depression, her vision, her way to lead life will definitely bring change in everyone's vision.",
@@ -68,4 +75,5 @@ export const speakersData: ISpeaker[] = [
     desc: "Joy Agrawal is a young innovator and a changemaker. He has discovered two asteroids and was also invited as an exhibition partner by IIT Madras. He has filed 4 patents and has founded Project Gyan. Under Project Gyan, his aim is to make quality education ubiquitous in rural and tribal parts of India. The flagship project of Project Gyan is quality practical STEM education for all, which has been funded by organizations like Peace First and Vicco Laboratories. He has been recognized by the Futures Egalitarian Ethical Liberal Leaders among the top 150 change makers. He also serves as the President of Community Space One, a group of like-minded people working towards sustainable development goals through space technology. He is also the Chief Operating Officer of frontforumfocus, an organization based in Kenya currently setting up a space laboratory at Kenyatta University.",
     photo: getPhotoURL("8", true),
   },
+
 ];
