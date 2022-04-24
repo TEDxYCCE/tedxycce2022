@@ -11,9 +11,9 @@ export interface ISpeaker {
 export const speakersData: ISpeaker[] = [
   {
     name: "Rohit Shyam Raut",
-    title: "Musician",
-    shortDesc: "",
-    desc: "",
+    title: "Singer and Music Director",
+    shortDesc: "Rohit is a Singer and Music Director, who is famous by the name \"PowerhouseRohit\"",
+    desc: "Indian singer and music director, who primarily works in the Marathi film industry. He is famous by name \"PowerhouseRohit\".He was a judge in Marathi \"SaReGaMaPa Little Champs \". He  appeared in the Indian singing reality show Indian Idol and was the runner-up of its eleventh season.",
     photo: getPhotoURL("0", true)
   },
   {
