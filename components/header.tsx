@@ -98,6 +98,9 @@ const Header = () => {
             <li className={navLinkClasses}>
               <Link href="/#speakers">SPEAKERS</Link>
             </li>
+            <li className={navLinkClasses}>
+              <Link href="/#register">REGISTER</Link>
+            </li>
             {/* <li className={navLinkClasses}>
               <Link href="/#nominations">NOMINATIONS</Link>
             </li> */}
