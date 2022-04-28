@@ -81,7 +81,7 @@ const Home: NextPage = () => {
                   TEDxYCCE
                 </span>
               </h2>
-              <div className="flex justify-around py-10">
+              <div className="flex flex-col justify-around px-10 py-10 space-y-10 text-center sm:space-y-0 sm:flex-row">
                 <p>
                   <span className="text-2xl font-semibold">Mr. Yash Netke</span>
                   <br />
@@ -115,7 +115,7 @@ const Home: NextPage = () => {
                   TEDxYCCE
                 </span>
               </h2>
-              <div className="flex justify-around py-10">
+              <div className="flex justify-around py-10 text-center">
                 <p>
                   <span className="text-2xl font-semibold">
                     Mr. Aniket P. Munshi
