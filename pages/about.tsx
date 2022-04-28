@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                   <span className="text-2xl font-semibold">Mr. Yash Netke</span>
                   <br />
                   <span className="text-xl font-semibold text-red-600">
-                    TEDx Event Licensee
+                    TEDxYCCE Event Licensee
                   </span>
                   <br />
                   <span className="text-sm font-semibold">
