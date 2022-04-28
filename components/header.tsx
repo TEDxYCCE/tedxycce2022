@@ -93,21 +93,16 @@ const Header = () => {
             ref={navULRef}
           >
             <li className={navLinkClasses}>
-              <Link href="/about">ABOUT</Link>
-            </li>
-            <li className={navLinkClasses}>
               <Link href="/#speakers">SPEAKERS</Link>
             </li>
             <li className={navLinkClasses}>
               <Link href="/#register">REGISTER</Link>
             </li>
-            {/* <li className={navLinkClasses}>
-              <Link href="/#nominations">NOMINATIONS</Link>
-            </li> */}
             <li className={navLinkClasses}>
-              <Link href="/Sponsorship_Proposal_2022.pdf">
-                <a target="_blank">SPONSOR OUR EVENT </a>
-              </Link>
+              <Link href="/partners">PARTNERS</Link>
+            </li>
+            <li className={navLinkClasses}>
+              <Link href="/about">ABOUT</Link>
             </li>
             <li className={navLinkClasses}>
               <Link href="/#contact">CONTACT US</Link>
