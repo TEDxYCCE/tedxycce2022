@@ -4,8 +4,8 @@ import ContactUs from "../components/contactUs";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Hero from "../components/hero";
-import Nominate from "../components/nominate";
 import PastEvents from "../components/pastEvents";
+import Performers from "../components/performers";
 import Speakers from "../components/speakers";
 import Tickets from "../components/tickets";
 
@@ -20,6 +20,7 @@ const Home: NextPage = () => {
         {/* <h1 className="text-2xl text-white">Welcome</h1> */}
         <Hero />
         <Speakers />
+        <Performers />
         {/* <Nominate /> */}
         <Tickets />
         <PastEvents />
