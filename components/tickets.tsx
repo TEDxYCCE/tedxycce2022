@@ -10,8 +10,8 @@ const Tickets = () => {
     <section className="">
       <div className="container px-6 py-10 mx-auto lg:py-24 lg:flex lg:flex-col lg:px-32 ">
         <SectionHeading title="Register for TEDxYCCE" />
-        <div className="container flex flex-col justify-center mx-auto mb-10 md:flex-row">
-          <div className="flex flex-col items-center text-center lg:flex-grow md:w-5/6 md:px-10 ">
+        <div className="container flex flex-col justify-center mx-auto mb-10">
+          <div className="flex flex-col items-center mx-auto text-center lg:flex-grow md:w-5/6 md:px-10 ">
             {/* <h1 className="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl"> */}
             <h1 className="mb-2 text-xl font-medium leading-5 tracking-wide sm:text-4xl ">
               Ticket Price: Rs. 1200/-
@@ -35,7 +35,7 @@ const Tickets = () => {
               </Button>
             </div>
           </div>
-          <div className="flex flex-col items-center text-center lg:flex-grow md:w-5/6 md:px-10 ">
+          <div className="flex flex-col items-center mx-auto text-center lg:flex-grow md:w-5/6 md:px-10 ">
             <h1 className="mb-2 text-xl font-medium leading-5 tracking-wide sm:text-4xl ">
               Group Discounts Available
               {/* <br className="hidden lg:inline-block" />
@@ -50,11 +50,11 @@ const Tickets = () => {
                   <li>
                     <b> For MGI/DMIMS Students/Faculties:</b>
                   </li>
-                  <li className="text-xl text-red-600">Rs. 1200/- Per Group</li>
+                  <li className="text-xl text-red-600">Rs. 1200/- Per Head</li>
                   <li>
                     <b> For Others:</b>
                   </li>
-                  <li className="text-xl text-red-600">Rs. 1500/- Per Group</li>
+                  <li className="text-xl text-red-600">Rs. 1500/- Per Head</li>
                 </ul>
                 To avail, contact:
                 <a
