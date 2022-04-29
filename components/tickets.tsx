@@ -6,15 +6,15 @@ const Tickets = () => {
     <section id="register" className="">
       <div className="container px-6 py-10 mx-auto lg:py-24 lg:flex lg:flex-col lg:px-32 ">
         <SectionHeading title="Register for TEDxYCCE" />
-        <div className="container flex flex-col justify-center mx-auto mb-10 md:flex-row">
-          <div className="flex flex-col items-center text-center lg:flex-grow md:w-5/6 md:px-10 ">
+        <div className="container flex flex-col justify-center mx-auto mb-10 lg:flex-row">
+          <div className="flex flex-col justify-center mx-auto text-center lg:flex-grow md:w-5/6 md:px-10 ">
             <h1 className="mb-2 text-xl font-medium leading-5 tracking-wide sm:text-4xl ">
               Ticket Price: Rs. 1500/-
               {/* <br className="hidden lg:inline-block" />
               
               readymade gluten */}
               <div className="py-4 mt-2 text-base text-center text-gray-600 lg:px-24 xl:px-20">
-                Single Attendee Price
+                Single Attendee price
               </div>
             </h1>
 
@@ -24,6 +24,29 @@ const Tickets = () => {
                 type="external"
                 variant="filled"
                 href="https://payments.cashfree.com/forms/tedxycce"
+                className="my-10"
+              >
+                Get Your Ticket
+              </Button>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center mx-auto text-center lg:flex-grow md:w-5/6 md:px-10 ">
+            <h1 className="mb-2 text-xl font-medium leading-5 tracking-wide sm:text-4xl ">
+              Ticket Price: Rs. 1200/-
+              {/* <br className="hidden lg:inline-block" />
+              
+              readymade gluten */}
+              <div className="py-4 mt-2 text-base text-center text-gray-600 lg:px-24 xl:px-20">
+                MGI/DMIMS members
+              </div>
+            </h1>
+
+            {/* Button to Ticket Form */}
+            <div className="mx-auto text-xl text-center">
+              <Button
+                type="external"
+                variant="filled"
+                href="https://payments.cashfree.com/forms/tedxycce_mgi"
                 className="my-10"
               >
                 Get Your Ticket
